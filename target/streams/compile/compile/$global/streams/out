@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/sathishjayaraman/scala_projects/kafka_batch_processing_using_spark_sample/src/main/scala/example/spark/BatchProcessKafka.scala:65:51: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : org.apache.kafka.common.TopicPartition[0m
+[0m[[0m[31merror[0m] [0m[0m required: java.util.Collection[org.apache.kafka.common.TopicPartition][0m
+[0m[[0m[31merror[0m] [0m[0m      val startOffset = consumer.beginningOffsets(topicPartition).values().asScala.toList.get(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sathishjayaraman/scala_projects/kafka_batch_processing_using_spark_sample/src/main/scala/example/spark/BatchProcessKafka.scala:66:44: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : org.apache.kafka.common.TopicPartition[0m
+[0m[[0m[31merror[0m] [0m[0m required: java.util.Collection[org.apache.kafka.common.TopicPartition][0m
+[0m[[0m[31merror[0m] [0m[0m      val stopOffset = consumer.endOffsets(topicPartition).values().asScala.toList.get(0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
